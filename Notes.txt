@@ -59,3 +59,19 @@ done
 
 task 5 -
 moving the bucket
+
+task 6 -
+finish the game
+
+
+task 7 -
+menu screen!
+
+Screens contain many of the methods you are used to from ApplicationListener objects,
+and include a couple of new methods: show and hide, which are called when the Screen gains or loses focus, respectively.
+Screens are responsible for handling (i.e., processing and rendering) one aspect of your game:
+a menu screen, a settings screen, a game screen, etc.
+
+
+ BitmapFont object is used, along with a SpriteBatch, to render text onto the screen.
+
