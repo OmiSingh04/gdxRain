@@ -1,0 +1,61 @@
+Just going through basic tutorials to get a feel for this thing
+
+sample game -
+* Catch rain drops with bucket
+* rain accelerates downwards, bucket is controlled via mouse or keys
+
+assets -
+water drop sound
+rain sound
+droplet sprite
+bucket sprite
+
+will load
+
+
+
+task 1 -
+load assets
+they are loaded in the create() method of your ApplicationAdapter
+
+A Texture represents a loaded image that is stored in video ram.
+Bucket and drop images are textures.
+
+Sound is loaded into memory
+Music is large and streamed directly from disk'
+
+As a rule of thumb, you should use a Sound instance if your sample is shorter than 10 seconds, and a Music instance for longer audio pieces.
+
+libGDX supports MP3, OGG and WAV files
+
+LOADED!
+
+task 2 -
+camera and spritebatch
+
+We’ll use the Camera to ensure we can render using our target resolution of 800x480
+pixels no matter what the actual screen resolution is.
+
+The SpriteBatch is a special class that is used to draw 2D images, like the textures we loaded.
+
+
+DONE
+
+task 3 -
+A bucket/raindrop has an x/y position in our 800x480 units world.
+A bucket/raindrop has a width and height, expressed in the units of our world.
+A bucket/raindrop has a graphical representation, we already have those in form of the Texture instances we loaded.
+
+We use rectangles to represent our Bucket and raindrop
+
+ By default, all rendering in libGDX (and OpenGL) is performed with the y-axis pointing upwards.
+
+
+
+ task 4 -
+ rendering the bucket
+done
+
+
+task 5 -
+moving the bucket
